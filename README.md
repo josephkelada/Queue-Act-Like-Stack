@@ -13,3 +13,5 @@ so we have 2 queues ,
 we want 1 queue to hold the real order of the stack at the end of each push() call and during the entire runtime.
 
 queue 2 is the temporary hold for the elements and queue 1 is the permanent one.
+
+the showQueue() function in the Stack class actually returns the top() of the queue every iteration of the loop which also calls pop()
