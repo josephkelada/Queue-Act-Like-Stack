@@ -1,0 +1,22 @@
+so basically how it works is :
+we want 2 queues to act like a stack theoretically.
+so we want to be able to generate a top() method and that method will give us the last number entered by the user.
+the pop() method should remove the first one.
+
+
+everytime push() gets called we want it to store the element given next to the last element(to the left).
+
+.so we have 2 queues ,
+we want 1 queue to hold the real order of the stack at the end of each push() call and during the entire runtime.
+
+queue 2 is the temporary hold for the elements and queue 1 is the permanent one.
+
+lets say we want to add 8 to the stack which already contains 7//explained down below
+we would push 7 to next to 8 so the new queue would be 8,7// i will explain this now 
+now i want to put 9 in front of the new queue ,what am i gonna do? 
+well, im gonna hold 8,7 in the new queue for now and im gonna put my 9 in the empty queue.
+then , i will simply take the new queue that contains the 8,7 and i will push it to the empty queue which already possesses 9.
+so now in my empty queue i have 9,8,7 and in my new queue i have 8,7. 
+so i simply change the name of the new queue to queue 1.
+so when i go to print the top of the stack it will always take the(LIFO) last element entered.  
+so all this is to make my queue's act like a stack
