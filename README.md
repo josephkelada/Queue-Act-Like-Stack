@@ -1,5 +1,5 @@
 # Queue-Act-Like-Stack
-To Run the project you can either execute the exe file in the debug folder or simply open the solution in Visual Studio And run it from there
+To Run the project you can either execute the exe file in the debug folder(stack with queue\ConsoleApplication3\Debug) or simply open the solution in Visual Studio And run it from there
 This simple project is a small algorithm that makes a queue act like a stack by changing the functionality of the core functions of a queue
 so basically how it works is :
 we want 2 queues to act like a stack theoretically.
